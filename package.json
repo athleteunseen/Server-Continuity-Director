@@ -1,0 +1,24 @@
+{
+  "name": "athleteunseen-scd",
+  "version": "1.0.0",
+  "description": "A robust system for dynamic traffic redirection, ensuring uninterrupted user experience by automatically rerouting web traffic to alternative servers when the primary server is down.",
+  "main": "scd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athleteunseen/Server-Continuity-Director.git"
+  },
+  "author": "AthleteUnseen Security",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/athleteunseen/Server-Continuity-Director/issues"
+  },
+  "homepage": "https://github.com/athleteunseen/Server-Continuity-Director#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "express": "^4.18.2",
+    "ping": "^0.4.4"
+  }
+}

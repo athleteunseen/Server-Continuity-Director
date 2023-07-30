@@ -1,0 +1,29 @@
+{
+    "server": {
+      "port": 8080
+    },
+    "loadBalancer": {
+      "algorithm": "RoundRobin",
+      "healthCheckInterval": 5000
+    },
+    "serverCluster": {
+      "maxServers": 5,
+      "minServers": 1,
+      "scalingThreshold": 0.7
+    },
+    "trafficAnalysis": {
+      "trackingInterval": 1000,
+      "maxStoredRequests": 100000
+    },
+    "dynamicDNS": {
+      "provider": "Route53"
+    },
+    "geolocation": {
+      "apiKey": "your_geolocation_api_key_here"
+    },
+    "logging": {
+      "logLevel": "info",
+      "enableConsoleLogging": true
+    }
+  }
+  
